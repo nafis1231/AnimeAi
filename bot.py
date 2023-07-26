@@ -72,7 +72,7 @@ async def _animeai(bot, update):
     if prompt:
         x = await update.reply('Wait for 10~20 seconds..')
         await bot.send_chat_action(update.from_user.id, enums.ChatAction.UPLOAD_PHOTO)
-        result = api.make_request('post', '/ai/silmin_generate', prompt=prompt, sampler=os.environ['SAMPLER'], gender=os.environ['GENDER'], model=os.environ['MODEL'], nsfw=os.environ['NSFW'])
+        result = api.make_request('post', '/ai/silmin_generate', prompt=prompt, sampler=SAMPLER, gender=GENDER, model=MODEL, nsfw=NSFW)
         if not result['error']:
             count = 1
             while True:
