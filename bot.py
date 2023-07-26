@@ -1,4 +1,4 @@
-import os
+import os, asyncio
 from xgorn_api import NoidAPI
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -72,10 +72,20 @@ async def _animeai(bot, update):
     if prompt:
         x = await update.reply('Wait for 10~20 seconds..')
         await bot.send_chat_action(update.from_user.id, enums.ChatAction.UPLOAD_PHOTO)
-        result = api.ai.silmin(prompt, SAMPLER, GENDER, MODEL, NSFW)
+        result = api.make_request('post', '/ai/silmin_generate', prompt=prompt, sampler=os.environ['SAMPLER'], gender=os.environ['GENDER'], model=os.environ['MODEL'], nsfw=os.environ['NSFW'])
         if not result['error']:
-            await update.reply_photo(result['image'])
+            count = 1
+            while True:
+                await asyncio.sleep(10)
+                task = api.make_request('post', '/ai/silmin_task', task_id=result['task_id'])
+                if not task['error']:
+                    break
+                else:
+                    if count > 5:
+                        break
+                    count+=1
             await x.delete()
+            await update.reply_photo(task['image'])
         else:
             await x.edit(result['message'])
 
