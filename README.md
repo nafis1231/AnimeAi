@@ -28,6 +28,12 @@ Telegram RoBot to Generate words to anime art.
 
 👉 Get NSFW from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
 
+### Screenshots
+
+<p align="center">
+    <img src="https://graph.org/file/b598ac4978a74c8e088e4.jpg" width="50%"></img>
+</p>
+
 ## Telegram Support:
 
 [![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/WeebProgrammer)
