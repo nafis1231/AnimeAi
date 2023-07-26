@@ -30,7 +30,7 @@ Telegram RoBot to Generate words to anime art.
 
 ### Screenshots
 
-<p align="center">
+<p>
     <img src="https://graph.org/file/b598ac4978a74c8e088e4.jpg" width="50%"></img>
 </p>
 
