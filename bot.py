@@ -10,7 +10,7 @@ BOT_TOKEN = os.environ.get('BOT_TOKEN', 'abc;123')
 API_KEY = os.environ.get('API_KEY', 'your-api-key')
 OWNER_ID = os.environ.get('OWNER_ID', 123)
 
-# See Docs for more details (api.xgorn.pp.ua/docs)
+# See Documentation for more details (api.xgorn.pp.ua/docs)
 SAMPLER = os.environ.get('SAMPLER', 'k_euler_a')
 MODEL = os.environ.get('MODEL', 'anime')
 GENDER = os.environ.get('GENDER', 'female')

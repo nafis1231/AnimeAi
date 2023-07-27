@@ -10,23 +10,23 @@ Telegram RoBot to Generate words to anime art.
 
 ### Environments:
 
-👉 Get API_KEY from http://api.xgorn.tech
+👉 Get `API_KEY` from http://api.xgorn.pp.ua
 
-👉 Get APP_ID from http://my.telegram.org
+👉 Get `APP_ID` from http://my.telegram.org
 
-👉 Get API_HASH from http://my.telegram.org
+👉 Get `API_HASH` from http://my.telegram.org
 
-👉 Get BOT_TOKEN from [@botfather](tg://msg?text=/newbot)
+👉 Get `BOT_TOKEN` from [@botfather](tg://msg?text=/newbot)
 
-👉 Get OWNER_ID from [@MissRose_bot](tg://msg?text=/id)
+👉 Get `OWNER_ID` from [@MissRose_bot](tg://msg?text=/id)
 
-👉 Get SAMPLER from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
+👉 Get `SAMPLER` from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
 
-👉 Get GENDER from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
+👉 Get `GENDER` from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
 
-👉 Get MODEL from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
+👉 Get `MODEL` from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
 
-👉 Get NSFW from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
+👉 Get `NSFW` from [NoidAPI Docs](https://api.xgorn.pp.ua/docs)
 
 ### Screenshots
 
