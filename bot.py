@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 API_HASH = os.environ.get('API_HASH', 'abc')
 APP_ID = int(os.environ.get('APP_ID', 123))
 BOT_TOKEN = os.environ.get('BOT_TOKEN', 'abc;123')
-API_KEY = os.environ.get('API_KEY', 'your-api-key')
+API_KEY = os.environ.get('API_KEY', 'umUn6QEFysZaFuOj')
 OWNER_ID = os.environ.get('OWNER_ID', 123)
 
 # See Documentation for more details (api.xgorn.pp.ua/docs)
