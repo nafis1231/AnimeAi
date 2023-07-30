@@ -4,17 +4,17 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Environments / Configs
-API_HASH = os.environ.get('API_HASH', 'abc')
-APP_ID = int(os.environ.get('APP_ID', 123))
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'abc;123')
+API_HASH = os.environ.get('API_HASH', '63a546bdaf18e2cbba99f87b4274fa05')
+APP_ID = int(os.environ.get('APP_ID', 5310709))
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '5436508081:AAHS16iI32cIFj5Bvv2jaQrk5a2ZgjHW4vE')
 API_KEY = os.environ.get('API_KEY', 'umUn6QEFysZaFuOj')
-OWNER_ID = os.environ.get('OWNER_ID', 123)
+OWNER_ID = os.environ.get('OWNER_ID', )
 
 # See Documentation for more details (api.xgorn.pp.ua/docs)
-SAMPLER = os.environ.get('SAMPLER', 'k_euler_a')
+SAMPLER = os.environ.get('SAMPLER', 'DDIM')
 MODEL = os.environ.get('MODEL', 'anime')
 GENDER = os.environ.get('GENDER', 'female')
-NSFW = os.environ.get('NSFW', 'false')
+NSFW = os.environ.get('NSFW', 'true')
 
 
 api = NoidAPI()
